@@ -1,0 +1,19 @@
+---
+
+testbed:
+  name: Unleash your network with programmability!
+
+devices:
+  C9300-0:
+    connections:
+      cli:
+        ip: 10.105.16.68
+        protocol: ssh
+    credentials:
+      default:
+        password: mypassword
+        username: myusername
+      enable:
+        password: mypassword
+    os: iosxe
+    type: iosxe

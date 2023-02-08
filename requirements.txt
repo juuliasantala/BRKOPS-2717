@@ -1,0 +1,4 @@
+pyats[full]
+requests
+pandas
+openpyxl
